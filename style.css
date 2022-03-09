@@ -1,0 +1,54 @@
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+}
+
+body{
+  background-color: #B762C1;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-form{
+  border-radius: 10px;
+  background-color: var(--color-darkblue-alpha);
+  padding: 2em;
+}
+
+.entry{
+  padding-bottom: 1.5em;
+}
+
+.name,
+.email,
+.age,
+.roles{
+  width: 100%;
+  height: 2em;
+  border: none;
+  border-radius: 2px;
+}
+
+textarea{
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+}
+
+
+button{
+  background-color: var(--color-green);
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  color: var(--color-white);
+  font-size: 1.2em;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="top">
+    <h1>freeCodeCamp Survey Form</h1>
+    <p><em>Thank you for taking the time to help us improve the platform</em></p>
+  </div>
+
+  <div class="main-form">
+    <form class="" action="/" method="post">
+      <div class="entry">
+        <label for="">Name</label><br>
+        <input class="name" type="text" name="name" placeholder="Enter Your Name">
+      </div>
+
+      <div class="entry">
+        <label for="">Email</label><br>
+        <input class="email" type="email" name="email" placeholder="Enter Your Email">
+      </div>
+
+      <div class="entry">
+        <label for="">Age(Optional)</label><br>
+        <input class="age" type="text" name="age" placeholder="Age">
+      </div>
+
+      <div class="entry">
+        <label for="">Which option best describes your current role?</label><br>
+        <select class="roles" name="roles" id="roles">
+          <option value="" disabled selected>Select current role</option>
+          <option >Student</option>
+          <option >Full time job</option>
+          <option >Full time learner</option>
+          <option >Prefer not to say</option>
+          <option >None</option>
+        </select>
+      </div>
+
+      <div class="entry">
+        <label for="">Would you recommend freeCodeCamp to a friend?</label> <br>
+        <input type="radio" checked>
+        <label for="def"> Definitely </label><br>
+        <input type="radio">
+        <label for="def"> Maybe </label><br>
+        <input type="radio">
+        <label for="def"> Not Sure </label><br>
+      </div>
+
+      <div class="entry">
+        <label for="">What would you like to see improved? (Check all that apply)</label> <br>
+        <div class="checks">
+          <input type="checkbox">
+          <label for="def"> Front-end Projects </label><br>
+          <input type="checkbox">
+          <label for="def"> Back-end Projects </label><br>
+          <input type="checkbox">
+          <label for="def">Data Visualization </label><br>
+          <input type="checkbox">
+          <label for="def">Challenges</label><br>
+          <input type="checkbox">
+          <label for="def">Open Source Community</label><br>
+          <input type="checkbox">
+          <label for="def">Gitter help rooms</label><br>
+          <input type="checkbox">
+          <label for="def">Videos</label><br>
+          <input type="checkbox">
+          <label for="def">Additional Courses</label><br>
+        </div>
+      </div>
+
+      <div class="entry">
+        <label for="" placeholder="Enter your comments here">Any comments or suggestions?</label><br>
+        <textarea name="name" rows="8" cols="80"></textarea>
+      </div>
+
+      <button type="submit" name="submit">Submit</button>
+
+    </form>
+
+  </div>
+</body>
+
+</html>
